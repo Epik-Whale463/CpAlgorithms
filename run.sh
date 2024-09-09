@@ -6,4 +6,4 @@ gcc "$file" -o "$file_short"
 echo "compiled successfully"
 
 ./"$file_short"
-mv "$file_short" /home/charan/Desktop/CpAlgorithms/objs/
+rm "$file_short"
