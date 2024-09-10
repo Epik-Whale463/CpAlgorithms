@@ -36,7 +36,7 @@ int main(void){
     int gcd_non_rec = gcd_non_recursive(a,b);
 
     printf("The GCD of %d and %d is : %d\n",a,b,gcd);
-    printf("(non recursive) The GCD of %d and %d is : %d\n",a,b,gcd_non_rec);
+    printf("(iterative) The GCD of %d and %d is : %d\n",a,b,gcd_non_rec);
 
 
     return 0;
